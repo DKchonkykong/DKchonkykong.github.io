@@ -40,11 +40,11 @@ body.bg-animate{
     margin-bottom: 0px;
     text-align: left;
     padding: 0;
-    border: 1px solid rgb(5, 93, 255);
+    border: 5px solid rgb(5, 93, 255);
     color: white;
     border-radius: 10px 10px 0px 0px;
 
-    background: rgb(157,197,255);
+    background: rgb(100,97,55);
     background: linear-gradient(180deg, rgba(157,197,255,1) 0%, rgba(101,182,255,1) 24%, rgba(101,182,255,1) 45%, rgba(0,98,241,1) 76%);
 }
 
