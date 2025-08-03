@@ -45,7 +45,7 @@ body.bg-animate{
     border-radius: 10px 10px 0px 0px;
 
     background: rgb(157,197,255);
-background: linear-gradient(180deg, rgba(255,95,160,1) 0%, rgba(255,53,159,1) 24%, rgba(255,28,147,1) 45%, rgba(198,0,180,1) 78%);
+    background: linear-gradient(180deg, rgba(157,197,255,1) 0%, rgba(101,182,255,1) 24%, rgba(101,182,255,1) 45%, rgba(0,98,241,1) 76%);
 }
 
 #f-navbar > a{
@@ -68,12 +68,12 @@ background: linear-gradient(180deg, rgba(255,95,160,1) 0%, rgba(255,53,159,1) 24
 
 #f-navbar > a:active{
     background: rgb(95,160,255);
-background: linear-gradient(180deg, rgba(255,95,160,1) 0%, rgba(255,53,159,1) 24%, rgba(255,28,147,1) 45%, rgba(198,0,180,1) 78%);
+background: linear-gradient(180deg, rgba(95,160,255,1) 0%, rgba(53,159,255,1) 16%, rgba(28,147,255,1) 27%, rgba(0,80,198,1) 49%);
 }
 
 #f-navbar >a.active{
     background: rgb(95,160,255);
-background: linear-gradient(180deg, rgba(255,95,160,1) 0%, rgba(255,53,159,1) 24%, rgba(255,28,147,1) 45%, rgba(198,0,180,1) 78%);
+background: linear-gradient(180deg, rgba(95,160,255,1) 0%, rgba(53,159,255,1) 16%, rgba(28,147,255,1) 27%, rgba(0,80,198,1) 49%);
 }
 
 
