@@ -45,7 +45,7 @@ body.bg-animate{
     border-radius: 10px 10px 0px 0px;
 
     background: rgb(100,97,55);
-    background: linear-gradient(180deg, rgba(157,197,255,1) 0%, rgba(101,182,255,1) 24%, rgba(101,182,255,1) 45%, rgba(0,98,241,1) 76%);
+    background: linear-gradient(#e66465, #9198e5);
 }
 
 #f-navbar > a{
