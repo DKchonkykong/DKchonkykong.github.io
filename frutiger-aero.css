@@ -40,14 +40,13 @@ body.bg-animate{
     margin-bottom: 0px;
     text-align: left;
     padding: 0;
-    border: 5px solid rgb(5, 93, 255);
+    border: 1px solid rgb(5, 93, 255);
     color: white;
     border-radius: 10px 10px 0px 0px;
 
-    background: rgb(100,97,55);
-background:
-  linear-gradient(180deg, rgb(55 55 55 / 0.4), rgb(255 0 0 / 0) 70.71%),
-  linear-gradient(0deg, rgb(100 100 100 / 0.8), rgb(0 255 0 / 0) 70.71%);}
+    background: rgb(157,197,255);
+background: linear-gradient(180deg, rgba(255,95,160,1) 0%, rgba(255,53,159,1) 24%, rgba(255,28,147,1) 45%, rgba(198,0,180,1) 78%);
+}
 
 #f-navbar > a{
     font-size: x-large;
@@ -69,15 +68,13 @@ background:
 
 #f-navbar > a:active{
     background: rgb(95,160,255);
-background:
-  linear-gradient(180deg, rgb(55 55 55 / 0.4), rgb(255 0 0 / 0) 70.71%),
-  linear-gradient(0deg, rgb(100 100 100 / 0.8), rgb(0 255 0 / 0) 70.71%);}
+background: linear-gradient(180deg, rgba(255,95,160,1) 0%, rgba(255,53,159,1) 24%, rgba(255,28,147,1) 45%, rgba(198,0,180,1) 78%);
+}
 
 #f-navbar >a.active{
     background: rgb(95,160,255);
-background:
-  linear-gradient(180deg, rgb(55 55 55 / 0.4), rgb(255 0 0 / 0) 70.71%),
-  linear-gradient(0deg, rgb(100 100 100 / 0.8), rgb(0 255 0 / 0) 70.71%);}
+background: linear-gradient(180deg, rgba(255,95,160,1) 0%, rgba(255,53,159,1) 24%, rgba(255,28,147,1) 45%, rgba(198,0,180,1) 78%);
+}
 
 
 #f-container{
@@ -92,9 +89,8 @@ background:
     font-size: larger;
 
     background: rgb(206,235,255);
-background:
-  linear-gradient(180deg, rgb(55 55 55 / 0.4), rgb(255 0 0 / 0) 70.71%),
-  linear-gradient(0deg, rgb(100 100 100 / 0.8), rgb(0 255 0 / 0) 70.71%);
+    background: linear-gradient(180deg, rgba(199, 231, 252, 0.6) 3%, rgba(245, 251, 255, 0.7) 5%, rgba(188,227,255,0.6) 100%);
+
     border-radius: 0 0 10px 10px;
 
     box-shadow: inset 0px -10px 30px 15px rgba(255, 255, 255, 0.5);
