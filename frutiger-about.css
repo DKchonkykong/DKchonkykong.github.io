@@ -134,3 +134,15 @@ h1,h2,h3,h4,h5,h6{
     float: right;
     margin-right: 0px;
 }
+.bubble{
+    border-radius: 50%;
+    background: rgb(230,245,255);
+    background: radial-gradient(circle, rgba(230,245,255,0.4) 18%, rgba(197,229,252,0.3) 46%, rgba(197,229,252,0.3) 100%);
+    background-position: -10px -10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 90px;
+    height: 90px;
+    z-index: -1;
+}
