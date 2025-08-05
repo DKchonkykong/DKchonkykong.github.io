@@ -9,22 +9,22 @@ let time = 0;
 // An array to hold all the wave configurations
 const waves = [
   {
-    amplitude: 50,       // How tall the wave is
-    frequency: 0.050,    // How frequent the peaks and troughs are
-    speed: 0.10,         // How fast the wave moves
+    amplitude: 40,       // How tall the wave is
+    frequency: 0.550,    // How frequent the peaks and troughs are
+    speed: 0.50,         // How fast the wave moves
     color: 'rgba(150, 0, 255, 0.4)', // Purple with transparency
   },
   {
-    amplitude: 50,
+    amplitude: 30,
     frequency: 0.50,
-    speed: 0.10,
+    speed: 0.50,
     color: 'rgba(255, 0, 150, 0.5)', // Pink with more transparency
   },
   {
     amplitude: 20,
     frequency: 0.5,
     speed: 0.10,
-    color: 'rgba(255, 50, 200, 0.7)', // Deeper purple with transparency
+    color: 'rgba(255, 50, 255, 0.7)', // Deeper purple with transparency
   }
 ];
 
