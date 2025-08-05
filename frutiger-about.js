@@ -6,29 +6,32 @@ let width = window.innerWidth;
 let height = window.innerHeight;
 let time = 0;
 
-// An array to hold all the wave configurations
+//gradiants and how big, frequent, and the speed of animation for the waves
 const waves = [
   {
-    amplitude: 40,       // How tall the wave is
-    frequency: 0.550,    // How frequent the peaks and troughs are
-    speed: 0.50,         // How fast the wave moves
-    color: 'rgba(150, 0, 255, 0.4)', // Purple with transparency
+    amplitude: 70,       
+    frequency: 0.015,    
+    speed: 0.05,         
+
+    gradientStartColor: 'rgba(150, 0, 255, 0.7)', // Purple with transparency
+    gradientEndColor: 'rgba(255, 0, 150, 0.5)',   // Pink with transparency
+  },
+  {
+    amplitude: 50,
+    frequency: 0.02,
+    speed: 0.03,
+    gradientStartColor: 'rgba(100, 0, 200, 0.7)', // Deeper purple with transparency
+    gradientEndColor: 'rgba(200, 0, 100, 0.5)',   // A different shade of pink
   },
   {
     amplitude: 30,
-    frequency: 0.50,
-    speed: 0.50,
-    color: 'rgba(255, 0, 150, 0.5)', // Pink with more transparency
-  },
-  {
-    amplitude: 20,
-    frequency: 0.5,
-    speed: 0.10,
-    color: 'rgba(255, 50, 255, 0.7)', // Deeper purple with transparency
+    frequency: 0.03,
+    speed: 0.02,
+    gradientStartColor: 'rgba(50, 0, 150, 0.7)',  // Another purple shade
+    gradientEndColor: 'rgba(150, 0, 50, 0.5)',    // Another pink shade
   }
 ];
 
-// Function to handle window resizing, making the canvas responsive
 function resizeCanvas() {
   width = window.innerWidth;
   height = window.innerHeight;
@@ -42,42 +45,35 @@ window.addEventListener('resize', resizeCanvas);
 
 // The main animation loop
 function animate() {
-  // Clear the canvas on each frame
   ctx.clearRect(0, 0, width, height);
-
-  // Update animation time for movement
   time += 0.01;
 
-  // Loop through each wave and draw it
   waves.forEach((wave, index) => {
-    // Start drawing a new path for this wave
+    
+    const gradient = ctx.createLinearGradient(0, height * 0.55 + index * 20, 0, height);
+    
+    gradient.addColorStop(0, wave.gradientStartColor);
+    gradient.addColorStop(1, wave.gradientEndColor);
+
     ctx.beginPath();
     
-    // Move to the starting point of the wave
-    // The starting y-position is slightly offset for each wave to create layers
     const startY = height * 0.55 + index * 20; 
     ctx.moveTo(0, startY);
 
-    // Loop through the width of the canvas to draw the sine wave
     for (let x = 0; x < width; x++) {
-      // Calculate the y-position based on the sine function
       let y = startY + wave.amplitude * Math.sin(x * wave.frequency + time * wave.speed);
       ctx.lineTo(x, y);
     }
 
-    // Close the path to create a filled shape
     ctx.lineTo(width, height);
     ctx.lineTo(0, height);
     ctx.closePath();
 
-    // Apply the wave's color and fill the shape
-    ctx.fillStyle = wave.color;
+    ctx.fillStyle = gradient;
     ctx.fill();
   });
 
-  // Request the next animation frame for a continuous loop
   requestAnimationFrame(animate);
 }
 
-// Start the animation
 animate();
