@@ -19,23 +19,6 @@ body.bg-green{
     background: linear-gradient(160deg, rgba(105,212,255,1) 0%, rgb(5, 185, 14)100%);
 }
 
-@keyframes bg {
-    0%{
-        background-size: 100%;
-    }
-
-    100%{
-        background-size: 600%;
-
-    }
-}
-/*rgba(0,98,241,1)*/
-body.bg-animate{
-
-    animation: bg 15s infinite ease-in-out alternate;
-    transition: background-size 1s;
-    overflow-x: hidden;
-}
 
 #f-navbar{
     margin-top: 20px;
@@ -133,16 +116,4 @@ h1,h2,h3,h4,h5,h6{
 .float-right{
     float: right;
     margin-right: 0px;
-}
-.bubble{
-    border-radius: 50%;
-    background: rgb(230,245,255);
-    background: radial-gradient(circle, rgba(230,245,255,0.4) 18%, rgba(197,229,252,0.3) 46%, rgba(197,229,252,0.3) 100%);
-    background-position: -10px -10px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 90px;
-    height: 90px;
-    z-index: -1;
 }
