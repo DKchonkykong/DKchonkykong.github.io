@@ -9,14 +9,14 @@ html,body{
 
 }
 
-
 body.bg-blue{
     background: rgb(105,212,255);
     background: linear-gradient(160deg, rgba(105,212,255,1) 0%, rgb(0, 82, 204) 100%);
 }
-body.bg-green{
+
+body.bg-green{ 
     background: rgb(105,212,255);
-    background: linear-gradient(160deg, rgba(105,212,255,1) 0%, rgb(5, 185, 14)100%);
+    background: linear-gradient(160deg, rgba(105,212,255,1) 15%, rgb(55, 1, 145) 75%);
 }
 
 
