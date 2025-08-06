@@ -9,14 +9,6 @@ let time = 0;
 //gradiants and how big, frequent, and the speed of animation for the waves
 const waves = [
   {
-    amplitude: 60,       
-    frequency: 0.015,    
-    speed: 0.06,         
-
-    gradientStartColor: 'rgba(150, 0, 255, 0.7)', // Purple with transparency
-    gradientEndColor: 'rgba(255, 0, 150, 0.5)',   // Pink with transparency
-  },
-  {
     amplitude: 40,
     frequency: 0.002,
     speed: 0.05,
