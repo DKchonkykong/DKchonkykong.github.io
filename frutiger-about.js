@@ -8,6 +8,14 @@ let time = 0;
 
 //gradiants and how big, frequent, and the speed of animation for the waves
 const waves = [
+    {
+    amplitude: 50,       
+    frequency: 0.006,    
+    speed: 0.06,         
+
+    gradientStartColor: 'rgba(0, 208, 255, 1)', // test colour white
+    gradientEndColor: 'rgba(9, 9, 121, 0.3)',   // test colours blue
+  },
   {
     amplitude: 40,
     frequency: 0.002,
