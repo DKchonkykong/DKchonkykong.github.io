@@ -11,7 +11,7 @@ const waves = [
     {
     amplitude: 45,       
     frequency: 0.006,    
-    speed: 0.16,         
+    speed: 0.26,         
 
     gradientStartColor: 'rgba(0, 178, 235, 0.7)', // test colour blue
     gradientEndColor: 'rgba(9, 9, 121, 0.5)',   // test colours darker blue
@@ -19,16 +19,17 @@ const waves = [
   {
     amplitude: 40,
     frequency: 0.002,
-    speed: 0.15,
-    gradientStartColor: 'rgba(100, 0, 200, 0.7)', // Deeper purple with transparency
-    gradientEndColor: 'rgba(200, 0, 100, 0.5)',   // A different shade of pink
+    speed: 0.25,
+    gradientStartColor: 'rgba(100, 15, 215, 0.7)', // Deeper purple with transparency
+    gradientEndColor: 'rgba(215, 15, 100, 0.5)',   // A different shade of pink
+    
   },
   {
     amplitude: 20,
     frequency: 0.005,
-    speed: 0.14,
-    gradientStartColor: 'rgba(50, 0, 150, 0.7)',  // Another purple shade
-    gradientEndColor: 'rgba(150, 0, 50, 0.5)',    // Another pink shade
+    speed: 0.24,
+    gradientStartColor: 'rgba(55, 25, 145, 0.7)',  // Another purple shade
+    gradientEndColor: 'rgba(145, 25, 55, 0.5)',    // Another pink shade
   }
 ];
 
