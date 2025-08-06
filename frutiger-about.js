@@ -9,24 +9,24 @@ let time = 0;
 //gradiants and how big, frequent, and the speed of animation for the waves
 const waves = [
     {
-    amplitude: 50,       
+    amplitude: 45,       
     frequency: 0.006,    
-    speed: 0.06,         
+    speed: 0.16,         
 
-    gradientStartColor: 'rgba(0, 208, 255, 1)', // test colour white
-    gradientEndColor: 'rgba(9, 9, 121, 0.3)',   // test colours blue
+    gradientStartColor: 'rgba(0, 178, 235, 0.7)', // test colour blue
+    gradientEndColor: 'rgba(9, 9, 121, 0.5)',   // test colours darker blue
   },
   {
     amplitude: 40,
     frequency: 0.002,
-    speed: 0.05,
+    speed: 0.15,
     gradientStartColor: 'rgba(100, 0, 200, 0.7)', // Deeper purple with transparency
     gradientEndColor: 'rgba(200, 0, 100, 0.5)',   // A different shade of pink
   },
   {
     amplitude: 20,
     frequency: 0.005,
-    speed: 0.04,
+    speed: 0.14,
     gradientStartColor: 'rgba(50, 0, 150, 0.7)',  // Another purple shade
     gradientEndColor: 'rgba(150, 0, 50, 0.5)',    // Another pink shade
   }
