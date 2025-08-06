@@ -14,7 +14,7 @@ body.bg-blue{
     background: linear-gradient(160deg, rgba(105,212,255,1) 0%, rgb(0, 82, 204) 100%);
 }
 
-body.bg-green{ 
+body.bg-darkblue{ 
     background: rgb(105,212,255);
     background: linear-gradient(160deg, rgba(105,212,255,1) 15%, rgb(55, 1, 145) 75%);
 }
