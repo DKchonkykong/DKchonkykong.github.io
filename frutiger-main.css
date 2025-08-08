@@ -95,11 +95,11 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .f-img-small{
-    width: 40%;
+    width: 35%;
     height: auto;
     margin: 10px 10px 10px 10px;
-    padding: 12px;
-    border-radius: 20px;
+    padding: 10px;
+    border-radius: 15px;
     background: rgb(25,25,25);
     background: linear-gradient(0deg, rgba(75, 100, 180, 0.6) 25%, rgba(24,40,72,0.6) 75%);
     box-shadow: 4px 4px 30px 0px blue;
@@ -107,13 +107,4 @@ h1,h2,h3,h4,h5,h6{
     -webkit-user-drag: none;
     -webkit-user-select: none;
 }
-
-.float-left{
-    float: left;
-    margin-left: 0px;
-}
-
-.float-right{
-    float: right;
-    margin-right: 0px;
 }
