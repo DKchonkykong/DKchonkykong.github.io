@@ -95,9 +95,9 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .f-img-small{
-    width: 35%;
+    width: 90%;
     height: auto;
-    margin: 10px 10px 10px 10px;
+    margin: auto;
     padding: 10px;
     border-radius: 15px;
     background: rgb(25,25,25);
