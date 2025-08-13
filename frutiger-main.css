@@ -124,7 +124,7 @@ h1,h2,h3,h4,h5,h6{
 }
 .image {
   display: block;
-  width: 40%;
+  width: 100%;
   height: auto;
   background: rgb(25,25,25);
   background: linear-gradient(0deg, rgba(75, 100, 180, 0.6) 25%, rgba(24,40,72,0.6) 75%);
