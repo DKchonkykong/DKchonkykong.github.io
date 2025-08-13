@@ -114,7 +114,7 @@ h1,h2,h3,h4,h5,h6{
 }
 .container {
   position: relative;
-  width: 240px;
+  width: 220px;
   display: inline-block;
   margin: 0;
   vertical-align: top;
@@ -122,15 +122,12 @@ h1,h2,h3,h4,h5,h6{
 .image {
   display: block;
   width: 100%;
-  height: auto;
+  height: 100%;
   background: rgb(25,25,25);
   background: linear-gradient(0deg, rgba(75, 100, 180, 0.6) 25%, rgba(24,40,72,0.6) 75%);
   box-shadow: 4px 4px 30px 0px blue;
   border-radius: 15px;
-  padding: 12px;
-  user-select: none;
-  -webkit-user-drag: none;
-  -webkit-user-select: none;
+  padding: 2px;
 }
 .overlay {
   position: absolute;
