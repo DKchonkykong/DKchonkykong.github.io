@@ -46,6 +46,7 @@ window.addEventListener('resize', resizeCanvas);
 
 // The main animation loop
 function animate() {
+const scrollY = window.scrollY || window.pageYOffset; //making sure background stays animated when scrolling
   ctx.clearRect(0, 0, width, height);
   time += 0.01;
 
@@ -58,7 +59,7 @@ function animate() {
 
     ctx.beginPath();
     
-    const startY = height * 0.55 + index * 20; 
+    const startY = height * 0.55 + index * 20 - scrollY; 
     ctx.moveTo(0, startY);
 
     for (let x = 0; x < width; x++) {
