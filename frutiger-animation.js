@@ -35,7 +35,7 @@ const waves = [
 
 function resizeCanvas() {
   width = window.innerWidth;
-  height = window.innerHeight;
+  height = Math.max(document.body.scrollHeight, window.innerHeight);
   canvas.width = width;
   canvas.height = height;
 }
